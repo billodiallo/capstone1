@@ -3,11 +3,16 @@
   padding: 0;
 }
 
-html,
-body,
-main {
-  overflow-x: hidden;
+@font-face {
+  src: url("assets/Fonts/Cocogoose.ttf");
+  font-family: 'Cocogoose';
 }
+
+/* body {
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  background-color: #f7f7f7;
+} */
 
 .logo {
   padding-right: 30px;
@@ -18,7 +23,38 @@ main {
 }
 
 img {
-  width: 25%;
-  height: 25%;
+  width: 5%;
+  height: 5%;
 }
+
+/* .card-img-top {
+  width: 20%;
+  height: 200%;
+} */
+
+.card {
+  height:50%;
+
+}
+
+.card-text {
+  font-size: 10px;
+}
+.card-body {
+  background-color:#272a31;
+  color: white;
+}
+
+.ccp,.card-title {
+  color: #ec5242;
+}
+.joy {
+  border: 3px solid white;
+  background-color: #D3D3D3;
+  color: black;
+}
+.mainp {
+  background-color: #272a31;
+}
+
 
