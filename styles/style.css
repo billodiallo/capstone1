@@ -8,11 +8,7 @@
   font-family: "Cocogoose";
 }
 
-/* body {
-  font-family: 'Lato', sans-serif;
-  color: #ec5242;
-  background-color: #f7f7f7;
-} */
+
 
 .logo {
   padding-right: 30px;
@@ -27,10 +23,7 @@ img {
   height: 5%;
 }
 
-/* .card-img-top {
-  width: 20%;
-  height: 200%;
-} */
+
 
 .card {
   height: 50%;
@@ -44,7 +37,7 @@ img {
   color: white;
 }
 
-.ccp,
+/* .ccp,
 .card-title {
   color: #ec5242;
 }
@@ -55,4 +48,4 @@ img {
 }
 .mainp {
   background-color: #272a31;
-}
+} */
