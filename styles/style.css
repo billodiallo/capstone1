@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+main {
+  overflow-x: hidden;
+}
+
+.logo {
+  padding-right: 30px;
+}
+
+.seeall {
+  text-decoration: none;
+}
+
+img {
+  width: 25%;
+  height: 25%;
+}
+
