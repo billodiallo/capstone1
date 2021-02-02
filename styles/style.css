@@ -8,14 +8,28 @@
   font-family: "Cocogoose";
 }
 
-/* body {
+body {
   font-family: 'Lato', sans-serif;
   color: #ec5242;
   background-color: #f7f7f7;
-} */
+}
 
 .logo {
   padding-right: 30px;
+}
+
+.menu1 {
+  text-decoration: none;
+  color: black;
+}
+
+.about-c {
+  color: #ec5242;
+  font-size: 19px;
+}
+
+.campagn {
+  border: 3px solid #ec5242;
 }
 
 .seeall {
@@ -53,6 +67,7 @@ img {
   background-color: #d3d3d3;
   color: black;
 }
+
 .mainp {
   background-color: #272a31;
 }
