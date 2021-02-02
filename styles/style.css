@@ -71,3 +71,23 @@ img {
 .mainp {
   background-color: #272a31;
 }
+
+.firstconf {
+  background-image: url("/assets/presenter3.jpg");
+  background-repeat: no-repeat;
+  object-fit: fill;
+  color: white;
+  padding-right:0;
+  margin-right: 0;
+  /* background-position: center; */
+
+}
+
+.secondfirst {
+  background-image: url("/assets/presenter4.jpg");
+  background-repeat: no-repeat;
+  object-fit: fill;
+  color: white;
+}
+
+
