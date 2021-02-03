@@ -53,6 +53,7 @@ img {
 .card-text {
   font-size: 10px;
 }
+
 .card-body {
   background-color: #272a31;
   color: white;
@@ -62,6 +63,7 @@ img {
 .card-title {
   color: #ec5242;
 }
+
 .joy {
   border: 3px solid white;
   background-color: #d3d3d3;
@@ -89,7 +91,6 @@ img {
   color: white;
   padding-right: 0;
   margin-right: 0;
-  /* background-position: center; */
 }
 
 .secondfirst {
