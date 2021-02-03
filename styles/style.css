@@ -124,12 +124,6 @@ img {
     height: 15%;
   }
 
-  /* .card {
-    height: 25%;
-    width: 25%;
-    margin: auto;
-  } */
-
   .speaker {
     display: flex;
     flex-direction: row;
