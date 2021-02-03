@@ -4,7 +4,7 @@
 
 
 
-Clone of the New York Times website page. This project features Positioning and floating elements.
+Capstone Project website page. This project features Positioning and floating elements.
 
 ## Built With
 
