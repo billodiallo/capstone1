@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #ec5242;
   background-color: #f7f7f7;
 }
@@ -87,10 +87,9 @@ img {
   height: 200px;
   object-fit: fill;
   color: white;
-  padding-right:0;
+  padding-right: 0;
   margin-right: 0;
   /* background-position: center; */
-
 }
 
 .secondfirst {
@@ -103,7 +102,7 @@ img {
   color: white;
 }
 
-@media (max-width:768px){
+@media (max-width: 768px) {
   .navmenu2 {
     display: none;
   }
