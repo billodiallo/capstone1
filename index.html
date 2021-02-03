@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script src="https://kit.fontawesome.com/37124d06d1.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/tickets.css">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -30,28 +31,39 @@
 </body>
 <header>
   <nav>
-    <div class="d-flex flex-row justify-content-end pl-45 mx-3">
-      <i class="fas fa-bars px-2 py-2" aria-hidden="true"></i>
-      <a href=""><i class=" px-2 fab fa-facebook fa-lg"></i></a>
-      <a href=""><i class="fab px-2 fa-twitter fa-lg"></i></a>
-      <p class="px-2">English</p>
-      <p class="px-2">My Page</p>
-      <p class="px-2">Logout</p>
-    </div>
-    <div class="navbar2 d-flex flex-row justify-content-center mx-auto">
-      <div class=" mr-5 logo bg-danger text-white">
-        <p> MALOBI tech</p>
-      </div class="text-white">
-      <a href="About.html" class="menu1 px-2 about-c ">About</a>
-      <a href="" class="menu1 px-2">Program</a>
-      <a href="tickets.html" class="menu1 px-2">Join</a>
-      <a href="" class="menu1 px-2">Sponsor</a>
-      <a href="" class=" menu1 px-2">News</a>
-      <a href="campaign.html" class=" menu1 px-2 campagn">MALOBI Campagn</a>
+   
+    <div class="social-and-personal-settings">
+      <div class="centered-item">
+          <ul>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#">Language</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Sign in</a></li>
+          </ul>
+      </div>
+  </div>
 
-    </div>
 
   </nav>
+
+  <div class="nav-background">
+    <nav class="centered-item">
+        <div class="branch">
+            <img src="assets/logoc.jpg" alt="">
+            <p>Malobitech</p>
+           
+        </div>
+        <input type="checkbox" id="menu"><label for="menu" class="menu-btn"><i class="fas fa-bars"></i></label>
+        <ul class="nav-menu">
+            <li><a href="index.html">Main</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Program</a></li>
+            <li><a href="#">Sponsor</a></li>
+            <li><a class="tickets-link hidden-ticket" href="tickets.html">BUY YOUR TICKETS!</a></li>
+        </ul>
+    </nav>
+</div>
 </header>
 
 <body>
@@ -87,14 +99,13 @@
             <img class="card-img-top" src="assets/lecture.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Lecture</h5>
-              <p class="card-text">Listen to the speakers from various counties about the message of sharing and opening
-              </p>
+              <p class="card-text">Listen to the speakers from various counties about the message of sharing</p>
             </div>
           </div>
           <div class="card">
             <img class="card-img-top" src="assets/exhibtion.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">MALOBI Exhibition </h5>
+              <h5 class="card-title"> Exhibition </h5>
               <p class="card-text">Appreciate various creations applying MALOBI licences of artists.</p>
             </div>
           </div>
@@ -102,8 +113,7 @@
             <img class="card-img-top img-fluid" src="assets/forum.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Forum</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content.</p>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead.</p>
             </div>
           </div>
           <div class="card">
@@ -130,7 +140,7 @@
     <h3 class="text-center">FEATURED SPEAKERS</h3>
     <hr style="background-color:#ec5242; width: 10%; margin: 3px auto;">
     <div class="container">
-    <div class="row">
+    <div class="row defineit">
       <div class="image  col-lg-6  col-sm-12">
         <div class="row">
           <img class="col-lg-6 col-sm-6 w-50 " src="assets/presenter1.jpg" alt="1pre">
@@ -232,23 +242,18 @@
       <p class="part py-2 px-3 mt-5">GOOGLE</p>
     </div>
     </div>
-  </section>
-
-    
-
-    </div>
-    <div class="row justify-content-center">
-      <div class=" mr-5 logo bg-danger text-white justify-content-center">
-        <p> MALOBI tech</p>
+  
+<footer>
+  <div class="centered-item">
+      <div class="d-flex">
+          <img src="assets/logoc.jpg" alt="">
+          <p>Malobitech</p>
       </div>
-      <p>© 2021 BILLO-NAIROBI - MALOBI Conference. All rights reserved.</p>
-    </div>
-    
-
-    
-
-  <!-- end Featured speakers -->
-
+      <div>
+          <p>All rigths reserved</p>
+      </div>
+  </div>
+</footer>
 </body>
 
 </html>
