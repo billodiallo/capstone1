@@ -72,12 +72,12 @@ img {
   background-color: #272a31;
 }
 
-.defineit {
+/* .defineit {
   max-width: 1400px;
   margin: auto;
   width: 100%;
   padding: 0 100px;
-}
+} */
 
 .firstconf {
   background-image: url("/assets/history1.jpg");
