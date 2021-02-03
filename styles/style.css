@@ -72,9 +72,19 @@ img {
   background-color: #272a31;
 }
 
+.defineit {
+  max-width: 1400px;
+  margin: auto;
+  width: 100%;
+  padding: 0 100px;
+}
+
 .firstconf {
-  background-image: url("/assets/presenter3.jpg");
+  background-image: url("/assets/history1.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
   object-fit: fill;
   color: white;
   padding-right:0;
@@ -84,10 +94,44 @@ img {
 }
 
 .secondfirst {
-  background-image: url("/assets/presenter4.jpg");
+  background-image: url("/assets/history2.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
   object-fit: fill;
   color: white;
 }
 
+@media (max-width:768px){
+  .navmenu2 {
+    display: none;
+  }
 
+  .tickets-link {
+    display: none;
+  }
+
+  .ccp {
+    text-align: center;
+  }
+
+  .musum {
+    text-align: center;
+  }
+
+  .card-img-top {
+    height: 15%;
+  }
+
+  /* .card {
+    height: 25%;
+    width: 25%;
+    margin: auto;
+  } */
+
+  .speaker {
+    display: flex;
+    flex-direction: row;
+  }
+}
