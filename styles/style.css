@@ -32,6 +32,11 @@ body {
   border: 3px solid #ec5242;
 }
 
+.about {
+  color: #ec5242;
+  font-weight: bold;
+}
+
 .seeall {
   text-decoration: none;
 }
