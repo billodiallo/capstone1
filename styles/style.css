@@ -63,7 +63,8 @@ img {
 }
 
 .ccp,
-.card-title , .mainlefcc {
+.card-title,
+.mainlefcc {
   color: #ec5242;
 }
 
@@ -88,8 +89,8 @@ img {
 
 .joinmolobi2021 {
   background-color: #ec5242;
- text-align: center;
-    border: 3px solid black;
+  text-align: center;
+  border: 3px solid black;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 30px;
@@ -154,7 +155,7 @@ img {
   .listb {
     margin-left: 3px;
   }
- 
+
   .ticktable {
     width: 50%;
   }
@@ -204,7 +205,7 @@ img {
   .listb {
     margin-left: 3px;
   }
-  
+
   .ticktable {
     width: 50%;
   }
