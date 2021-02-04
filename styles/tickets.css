@@ -21,15 +21,9 @@ label {
   display: none;
 }
 
-/* .centered-item {
-  max-width: 1400px;
-  margin: auto;
-  width: 100%;
-  padding: 0 100px;
-} */
-
 header {
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 200;
 }
@@ -38,10 +32,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-main {
-  padding-top: 200px;
 }
 
 select {
