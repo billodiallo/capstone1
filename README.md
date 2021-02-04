@@ -13,11 +13,9 @@ Clone of the New York Times website page. This project features Positioning and 
 
 
 ## Live Demo
- https://billodiallo.github.io/capstone1/.
- https://www.loom.com/share/a14b3a4cf78f41c89419dad27052a304
 
 HEAD TO
-[NYT PROJECT]()
+[]()
 =======
 
 
