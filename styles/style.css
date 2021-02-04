@@ -41,10 +41,6 @@ img {
   height: 5%;
 }
 
-/* .card-img-top {
-  width: 20%;
-  height: 200%;
-} */
 
 .card {
   height: 50%;
@@ -54,14 +50,23 @@ img {
   font-size: 10px;
 }
 
+.mainpro {
+  font-size: 20px;
+}
+
 .card-body {
   background-color: #272a31;
   color: white;
 }
 
+.first-container {
+  background-color: #272a31;
+}
+
 .ccp,
-.card-title {
+.card-title , .mainlefcc {
   color: #ec5242;
+  /* font-size: 12px; */
 }
 
 .joy {
@@ -74,12 +79,23 @@ img {
   background-color: #272a31;
 }
 
-/* .defineit {
-  max-width: 1400px;
-  margin: auto;
-  width: 100%;
-  padding: 0 100px;
-} */
+.explik {
+  font-size: 10px;
+  justify-self: start;
+}
+
+.small {
+  color: #ec5242;
+}
+
+.joinmolobi2021 {
+  background-color: #ec5242;
+ text-align: center;
+  border: 3px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
 
 .firstconf {
   background-image: url("/assets/history1.jpg");
@@ -128,4 +144,75 @@ img {
     display: flex;
     flex-direction: row;
   }
+
+  .hamburger {
+    margin-left: 5px;
+  }
+
+  .container-fluid {
+    display: none;
+  }
+
+  .listb {
+    margin-left: 3px;
+  }
+  .ticktable {
+    width: 50%;
+  }
 }
+
+@media (max-width: 1024px) {
+  .navmenu2 {
+    display: none;
+  }
+
+  .tickets-link {
+    display: none;
+  }
+
+  .ccp {
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 2px;
+  }
+
+  .musum {
+    text-align: center;
+  }
+
+  .hellosection {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .card-img-top {
+    height: 15%;
+  }
+
+  .speaker {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hamburger {
+    margin-left: 5px;
+  }
+
+  .container-fluid {
+    display: none;
+  }
+
+  .listb {
+    margin-left: 3px;
+  }
+  .ticktable {
+    width: 50%;
+  }
+
+  .tabletver {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+
