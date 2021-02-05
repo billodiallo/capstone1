@@ -19,10 +19,7 @@ Capstone Project website page. This project features Positioning and floating el
 
 
 ## Live Demo
-=======
 [Conference Website](billodiallo.github.io/capstone1/)
-=======
-
 
 ### Prerequisites
 -  Knowledge about HTML and CSS
