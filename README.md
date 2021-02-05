@@ -19,8 +19,6 @@ Capstone Project website page. This project features Positioning and floating el
 
 
 ## Live Demo
-
-HEAD TO
 =======
 [Conference Website](billodiallo.github.io/capstone1/)
 =======
