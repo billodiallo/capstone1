@@ -161,6 +161,7 @@ img {
 .dropdown-item:hover {
   background-color: saddlebrown;
 }
+
 .dropdown-item:active {
   box-shadow: 0 0 30px #000;
 }
