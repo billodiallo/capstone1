@@ -127,6 +127,7 @@ img {
   object-fit: fill;
   color: white;
 }
+
 /* stiling for phone */
 #nav_bar_phone {
   background-color: #f5f5f5;
@@ -152,12 +153,13 @@ img {
   background-color: #545454;
   width: 35px;
 }
+
 #dropMenu:active {
   box-shadow: 0 0 30px #545454;
 }
+
 .dropdown-item:hover {
   background-color: saddlebrown;
-  /* background-image: url(../images/1853716.jpg); */
 }
 .dropdown-item:active {
   box-shadow: 0 0 30px #000;
@@ -216,7 +218,6 @@ img {
 .imapart {
   float: left;
   width: 15%;
-  padding: px;
 }
 
 @media (max-width: 1024px) {
